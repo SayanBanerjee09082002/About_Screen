@@ -50,7 +50,8 @@ class _AboutUs extends State<AboutUs> {
                 ),
                 Tab(
                     icon: Icon(
-                  FontAwesomeIcons.globe,
+                  CupertinoIcons.globe,
+                      size: 30,
                 )),
               ],
             ),
@@ -66,25 +67,29 @@ class _AboutUs extends State<AboutUs> {
                     children: [
                       Expanded(
                         child: Padding(
-                          padding: const EdgeInsets.symmetric(horizontal: 20.0, vertical: 10),
+                          padding: const EdgeInsets.symmetric(
+                              horizontal: 20.0, vertical: 10),
                           child: Container(
                             height: 183,
                             width: 142,
                             child: Card(
                                 shape: RoundedRectangleBorder(
                                   borderRadius: BorderRadius.circular(10),
-                                  side:
-                                      BorderSide(color: Colors.white70, width: 1),
+                                  side: BorderSide(
+                                      color: Colors.white70, width: 1),
                                 ),
                                 color: Colors.transparent,
                                 child: Padding(
                                   padding: const EdgeInsets.all(8.0),
                                   child: Column(
-                                    crossAxisAlignment: CrossAxisAlignment.center,
+                                    crossAxisAlignment:
+                                        CrossAxisAlignment.center,
                                     children: [
-                                      Icon(
-                                        Icons.circle_outlined,
-                                        size: 72,
+                                      CircleAvatar(
+                                        foregroundImage:
+                                            AssetImage('images/avatar.png'),
+                                        backgroundColor: Color(0xFF05FFB4),
+                                        radius: 40,
                                       ),
                                       SizedBox(
                                         height: 3,
@@ -108,14 +113,16 @@ class _AboutUs extends State<AboutUs> {
                       ),
                       Expanded(
                           child: Padding(
-                        padding: const EdgeInsets.symmetric(horizontal: 20.0, vertical: 10),
+                        padding: const EdgeInsets.symmetric(
+                            horizontal: 20.0, vertical: 10),
                         child: Container(
                           height: 183,
                           width: 142,
                           child: Card(
                               shape: RoundedRectangleBorder(
                                 borderRadius: BorderRadius.circular(10),
-                                side: BorderSide(color: Colors.white70, width: 1),
+                                side:
+                                    BorderSide(color: Colors.white70, width: 1),
                               ),
                               color: Colors.transparent,
                               child: Padding(
@@ -123,10 +130,11 @@ class _AboutUs extends State<AboutUs> {
                                 child: Column(
                                   crossAxisAlignment: CrossAxisAlignment.center,
                                   children: [
-                                    Icon(
-                                      Icons.circle_outlined,
-                                      size: 72,
-                                    ),
+                                    CircleAvatar(
+                                        foregroundImage:
+                                            AssetImage('images/avatar.png'),
+                                        backgroundColor: Color(0xFF05FFB4),
+                                        radius: 40),
                                     SizedBox(
                                       height: 3,
                                     ),
@@ -152,25 +160,29 @@ class _AboutUs extends State<AboutUs> {
                     children: [
                       Expanded(
                         child: Padding(
-                          padding: const EdgeInsets.symmetric(horizontal: 20.0, vertical: 10),
+                          padding: const EdgeInsets.symmetric(
+                              horizontal: 20.0, vertical: 10),
                           child: Container(
                             height: 183,
                             width: 142,
                             child: Card(
                                 shape: RoundedRectangleBorder(
                                   borderRadius: BorderRadius.circular(10),
-                                  side:
-                                  BorderSide(color: Colors.white70, width: 1),
+                                  side: BorderSide(
+                                      color: Colors.white70, width: 1),
                                 ),
                                 color: Colors.transparent,
                                 child: Padding(
                                   padding: const EdgeInsets.all(8.0),
                                   child: Column(
-                                    crossAxisAlignment: CrossAxisAlignment.center,
+                                    crossAxisAlignment:
+                                    CrossAxisAlignment.center,
                                     children: [
-                                      Icon(
-                                        Icons.circle_outlined,
-                                        size: 72,
+                                      CircleAvatar(
+                                        foregroundImage:
+                                        AssetImage('images/avatar.png'),
+                                        backgroundColor: Color(0xFF05FFB4),
+                                        radius: 40,
                                       ),
                                       SizedBox(
                                         height: 3,
@@ -194,14 +206,16 @@ class _AboutUs extends State<AboutUs> {
                       ),
                       Expanded(
                           child: Padding(
-                            padding: const EdgeInsets.symmetric(horizontal: 20.0, vertical: 10),
+                            padding: const EdgeInsets.symmetric(
+                                horizontal: 20.0, vertical: 10),
                             child: Container(
                               height: 183,
                               width: 142,
                               child: Card(
                                   shape: RoundedRectangleBorder(
                                     borderRadius: BorderRadius.circular(10),
-                                    side: BorderSide(color: Colors.white70, width: 1),
+                                    side:
+                                    BorderSide(color: Colors.white70, width: 1),
                                   ),
                                   color: Colors.transparent,
                                   child: Padding(
@@ -209,10 +223,11 @@ class _AboutUs extends State<AboutUs> {
                                     child: Column(
                                       crossAxisAlignment: CrossAxisAlignment.center,
                                       children: [
-                                        Icon(
-                                          Icons.circle_outlined,
-                                          size: 72,
-                                        ),
+                                        CircleAvatar(
+                                            foregroundImage:
+                                            AssetImage('images/avatar.png'),
+                                            backgroundColor: Color(0xFF05FFB4),
+                                            radius: 40),
                                         SizedBox(
                                           height: 3,
                                         ),
@@ -238,25 +253,29 @@ class _AboutUs extends State<AboutUs> {
                     children: [
                       Expanded(
                         child: Padding(
-                          padding: const EdgeInsets.symmetric(horizontal: 20.0, vertical: 10),
+                          padding: const EdgeInsets.symmetric(
+                              horizontal: 20.0, vertical: 10),
                           child: Container(
                             height: 183,
                             width: 142,
                             child: Card(
                                 shape: RoundedRectangleBorder(
                                   borderRadius: BorderRadius.circular(10),
-                                  side:
-                                  BorderSide(color: Colors.white70, width: 1),
+                                  side: BorderSide(
+                                      color: Colors.white70, width: 1),
                                 ),
                                 color: Colors.transparent,
                                 child: Padding(
                                   padding: const EdgeInsets.all(8.0),
                                   child: Column(
-                                    crossAxisAlignment: CrossAxisAlignment.center,
+                                    crossAxisAlignment:
+                                    CrossAxisAlignment.center,
                                     children: [
-                                      Icon(
-                                        Icons.circle_outlined,
-                                        size: 72,
+                                      CircleAvatar(
+                                        foregroundImage:
+                                        AssetImage('images/avatar.png'),
+                                        backgroundColor: Color(0xFF05FFB4),
+                                        radius: 40,
                                       ),
                                       SizedBox(
                                         height: 3,
@@ -280,14 +299,16 @@ class _AboutUs extends State<AboutUs> {
                       ),
                       Expanded(
                           child: Padding(
-                            padding: const EdgeInsets.symmetric(horizontal: 20.0, vertical: 10),
+                            padding: const EdgeInsets.symmetric(
+                                horizontal: 20.0, vertical: 10),
                             child: Container(
                               height: 183,
                               width: 142,
                               child: Card(
                                   shape: RoundedRectangleBorder(
                                     borderRadius: BorderRadius.circular(10),
-                                    side: BorderSide(color: Colors.white70, width: 1),
+                                    side:
+                                    BorderSide(color: Colors.white70, width: 1),
                                   ),
                                   color: Colors.transparent,
                                   child: Padding(
@@ -295,10 +316,11 @@ class _AboutUs extends State<AboutUs> {
                                     child: Column(
                                       crossAxisAlignment: CrossAxisAlignment.center,
                                       children: [
-                                        Icon(
-                                          Icons.circle_outlined,
-                                          size: 72,
-                                        ),
+                                        CircleAvatar(
+                                            foregroundImage:
+                                            AssetImage('images/avatar.png'),
+                                            backgroundColor: Color(0xFF05FFB4),
+                                            radius: 40),
                                         SizedBox(
                                           height: 3,
                                         ),
@@ -324,25 +346,29 @@ class _AboutUs extends State<AboutUs> {
                     children: [
                       Expanded(
                         child: Padding(
-                          padding: const EdgeInsets.symmetric(horizontal: 20.0, vertical: 10),
+                          padding: const EdgeInsets.symmetric(
+                              horizontal: 20.0, vertical: 10),
                           child: Container(
                             height: 183,
                             width: 142,
                             child: Card(
                                 shape: RoundedRectangleBorder(
                                   borderRadius: BorderRadius.circular(10),
-                                  side:
-                                  BorderSide(color: Colors.white70, width: 1),
+                                  side: BorderSide(
+                                      color: Colors.white70, width: 1),
                                 ),
                                 color: Colors.transparent,
                                 child: Padding(
                                   padding: const EdgeInsets.all(8.0),
                                   child: Column(
-                                    crossAxisAlignment: CrossAxisAlignment.center,
+                                    crossAxisAlignment:
+                                    CrossAxisAlignment.center,
                                     children: [
-                                      Icon(
-                                        Icons.circle_outlined,
-                                        size: 72,
+                                      CircleAvatar(
+                                        foregroundImage:
+                                        AssetImage('images/avatar.png'),
+                                        backgroundColor: Color(0xFF05FFB4),
+                                        radius: 40,
                                       ),
                                       SizedBox(
                                         height: 3,
@@ -366,14 +392,16 @@ class _AboutUs extends State<AboutUs> {
                       ),
                       Expanded(
                           child: Padding(
-                            padding: const EdgeInsets.symmetric(horizontal: 20.0, vertical: 10),
+                            padding: const EdgeInsets.symmetric(
+                                horizontal: 20.0, vertical: 10),
                             child: Container(
                               height: 183,
                               width: 142,
                               child: Card(
                                   shape: RoundedRectangleBorder(
                                     borderRadius: BorderRadius.circular(10),
-                                    side: BorderSide(color: Colors.white70, width: 1),
+                                    side:
+                                    BorderSide(color: Colors.white70, width: 1),
                                   ),
                                   color: Colors.transparent,
                                   child: Padding(
@@ -381,358 +409,11 @@ class _AboutUs extends State<AboutUs> {
                                     child: Column(
                                       crossAxisAlignment: CrossAxisAlignment.center,
                                       children: [
-                                        Icon(
-                                          Icons.circle_outlined,
-                                          size: 72,
-                                        ),
-                                        SizedBox(
-                                          height: 3,
-                                        ),
-                                        Text('XYZ', style: Style1),
-                                        Divider(
-                                          color: Colors.white,
-                                          thickness: 1,
-                                          indent: 41.5,
-                                          endIndent: 41.5,
-                                        ),
-                                        SizedBox(
-                                          height: 3,
-                                        ),
-                                        Text('DESCRIPTION', style: Style2),
-                                      ],
-                                    ),
-                                  )),
-                            ),
-                          ))
-                    ],
-                  ),
-                ],
-              ),
-              ListView(
-                children: [
-                  Row(
-                    children: [
-                      Expanded(
-                        child: Padding(
-                          padding: const EdgeInsets.symmetric(horizontal: 20.0, vertical: 10),
-                          child: Container(
-                            height: 183,
-                            width: 142,
-                            child: Card(
-                                shape: RoundedRectangleBorder(
-                                  borderRadius: BorderRadius.circular(10),
-                                  side:
-                                  BorderSide(color: Colors.white70, width: 1),
-                                ),
-                                color: Colors.transparent,
-                                child: Padding(
-                                  padding: const EdgeInsets.all(8.0),
-                                  child: Column(
-                                    crossAxisAlignment: CrossAxisAlignment.center,
-                                    children: [
-                                      Icon(
-                                        Icons.circle_outlined,
-                                        size: 72,
-                                      ),
-                                      SizedBox(
-                                        height: 3,
-                                      ),
-                                      Text('XYZ', style: Style1),
-                                      Divider(
-                                        color: Colors.white,
-                                        thickness: 1,
-                                        indent: 41.5,
-                                        endIndent: 41.5,
-                                      ),
-                                      SizedBox(
-                                        height: 3,
-                                      ),
-                                      Text('DESCRIPTION', style: Style2),
-                                    ],
-                                  ),
-                                )),
-                          ),
-                        ),
-                      ),
-                      Expanded(
-                          child: Padding(
-                            padding: const EdgeInsets.symmetric(horizontal: 20.0, vertical: 10),
-                            child: Container(
-                              height: 183,
-                              width: 142,
-                              child: Card(
-                                  shape: RoundedRectangleBorder(
-                                    borderRadius: BorderRadius.circular(10),
-                                    side: BorderSide(color: Colors.white70, width: 1),
-                                  ),
-                                  color: Colors.transparent,
-                                  child: Padding(
-                                    padding: const EdgeInsets.all(8.0),
-                                    child: Column(
-                                      crossAxisAlignment: CrossAxisAlignment.center,
-                                      children: [
-                                        Icon(
-                                          Icons.circle_outlined,
-                                          size: 72,
-                                        ),
-                                        SizedBox(
-                                          height: 3,
-                                        ),
-                                        Text('XYZ', style: Style1),
-                                        Divider(
-                                          color: Colors.white,
-                                          thickness: 1,
-                                          indent: 41.5,
-                                          endIndent: 41.5,
-                                        ),
-                                        SizedBox(
-                                          height: 3,
-                                        ),
-                                        Text('DESCRIPTION', style: Style2),
-                                      ],
-                                    ),
-                                  )),
-                            ),
-                          ))
-                    ],
-                  ),
-                  Row(
-                    children: [
-                      Expanded(
-                        child: Padding(
-                          padding: const EdgeInsets.symmetric(horizontal: 20.0, vertical: 10),
-                          child: Container(
-                            height: 183,
-                            width: 142,
-                            child: Card(
-                                shape: RoundedRectangleBorder(
-                                  borderRadius: BorderRadius.circular(10),
-                                  side:
-                                  BorderSide(color: Colors.white70, width: 1),
-                                ),
-                                color: Colors.transparent,
-                                child: Padding(
-                                  padding: const EdgeInsets.all(8.0),
-                                  child: Column(
-                                    crossAxisAlignment: CrossAxisAlignment.center,
-                                    children: [
-                                      Icon(
-                                        Icons.circle_outlined,
-                                        size: 72,
-                                      ),
-                                      SizedBox(
-                                        height: 3,
-                                      ),
-                                      Text('XYZ', style: Style1),
-                                      Divider(
-                                        color: Colors.white,
-                                        thickness: 1,
-                                        indent: 41.5,
-                                        endIndent: 41.5,
-                                      ),
-                                      SizedBox(
-                                        height: 3,
-                                      ),
-                                      Text('DESCRIPTION', style: Style2),
-                                    ],
-                                  ),
-                                )),
-                          ),
-                        ),
-                      ),
-                      Expanded(
-                          child: Padding(
-                            padding: const EdgeInsets.symmetric(horizontal: 20.0, vertical: 10),
-                            child: Container(
-                              height: 183,
-                              width: 142,
-                              child: Card(
-                                  shape: RoundedRectangleBorder(
-                                    borderRadius: BorderRadius.circular(10),
-                                    side: BorderSide(color: Colors.white70, width: 1),
-                                  ),
-                                  color: Colors.transparent,
-                                  child: Padding(
-                                    padding: const EdgeInsets.all(8.0),
-                                    child: Column(
-                                      crossAxisAlignment: CrossAxisAlignment.center,
-                                      children: [
-                                        Icon(
-                                          Icons.circle_outlined,
-                                          size: 72,
-                                        ),
-                                        SizedBox(
-                                          height: 3,
-                                        ),
-                                        Text('XYZ', style: Style1),
-                                        Divider(
-                                          color: Colors.white,
-                                          thickness: 1,
-                                          indent: 41.5,
-                                          endIndent: 41.5,
-                                        ),
-                                        SizedBox(
-                                          height: 3,
-                                        ),
-                                        Text('DESCRIPTION', style: Style2),
-                                      ],
-                                    ),
-                                  )),
-                            ),
-                          ))
-                    ],
-                  ),
-                  Row(
-                    children: [
-                      Expanded(
-                        child: Padding(
-                          padding: const EdgeInsets.symmetric(horizontal: 20.0, vertical: 10),
-                          child: Container(
-                            height: 183,
-                            width: 142,
-                            child: Card(
-                                shape: RoundedRectangleBorder(
-                                  borderRadius: BorderRadius.circular(10),
-                                  side:
-                                  BorderSide(color: Colors.white70, width: 1),
-                                ),
-                                color: Colors.transparent,
-                                child: Padding(
-                                  padding: const EdgeInsets.all(8.0),
-                                  child: Column(
-                                    crossAxisAlignment: CrossAxisAlignment.center,
-                                    children: [
-                                      Icon(
-                                        Icons.circle_outlined,
-                                        size: 72,
-                                      ),
-                                      SizedBox(
-                                        height: 3,
-                                      ),
-                                      Text('XYZ', style: Style1),
-                                      Divider(
-                                        color: Colors.white,
-                                        thickness: 1,
-                                        indent: 41.5,
-                                        endIndent: 41.5,
-                                      ),
-                                      SizedBox(
-                                        height: 3,
-                                      ),
-                                      Text('DESCRIPTION', style: Style2),
-                                    ],
-                                  ),
-                                )),
-                          ),
-                        ),
-                      ),
-                      Expanded(
-                          child: Padding(
-                            padding: const EdgeInsets.symmetric(horizontal: 20.0, vertical: 10),
-                            child: Container(
-                              height: 183,
-                              width: 142,
-                              child: Card(
-                                  shape: RoundedRectangleBorder(
-                                    borderRadius: BorderRadius.circular(10),
-                                    side: BorderSide(color: Colors.white70, width: 1),
-                                  ),
-                                  color: Colors.transparent,
-                                  child: Padding(
-                                    padding: const EdgeInsets.all(8.0),
-                                    child: Column(
-                                      crossAxisAlignment: CrossAxisAlignment.center,
-                                      children: [
-                                        Icon(
-                                          Icons.circle_outlined,
-                                          size: 72,
-                                        ),
-                                        SizedBox(
-                                          height: 3,
-                                        ),
-                                        Text('XYZ', style: Style1),
-                                        Divider(
-                                          color: Colors.white,
-                                          thickness: 1,
-                                          indent: 41.5,
-                                          endIndent: 41.5,
-                                        ),
-                                        SizedBox(
-                                          height: 3,
-                                        ),
-                                        Text('DESCRIPTION', style: Style2),
-                                      ],
-                                    ),
-                                  )),
-                            ),
-                          ))
-                    ],
-                  ),
-                  Row(
-                    children: [
-                      Expanded(
-                        child: Padding(
-                          padding: const EdgeInsets.symmetric(horizontal: 20.0, vertical: 10),
-                          child: Container(
-                            height: 183,
-                            width: 142,
-                            child: Card(
-                                shape: RoundedRectangleBorder(
-                                  borderRadius: BorderRadius.circular(10),
-                                  side:
-                                  BorderSide(color: Colors.white70, width: 1),
-                                ),
-                                color: Colors.transparent,
-                                child: Padding(
-                                  padding: const EdgeInsets.all(8.0),
-                                  child: Column(
-                                    crossAxisAlignment: CrossAxisAlignment.center,
-                                    children: [
-                                      Icon(
-                                        Icons.circle_outlined,
-                                        size: 72,
-                                      ),
-                                      SizedBox(
-                                        height: 3,
-                                      ),
-                                      Text('XYZ', style: Style1),
-                                      Divider(
-                                        color: Colors.white,
-                                        thickness: 1,
-                                        indent: 41.5,
-                                        endIndent: 41.5,
-                                      ),
-                                      SizedBox(
-                                        height: 3,
-                                      ),
-                                      Text('DESCRIPTION', style: Style2),
-                                    ],
-                                  ),
-                                )),
-                          ),
-                        ),
-                      ),
-                      Expanded(
-                          child: Padding(
-                            padding: const EdgeInsets.symmetric(horizontal: 20.0, vertical: 10),
-                            child: Container(
-                              height: 183,
-                              width: 142,
-                              child: Card(
-                                  shape: RoundedRectangleBorder(
-                                    borderRadius: BorderRadius.circular(10),
-                                    side: BorderSide(color: Colors.white70, width: 1),
-                                  ),
-                                  color: Colors.transparent,
-                                  child: Padding(
-                                    padding: const EdgeInsets.all(8.0),
-                                    child: Column(
-                                      crossAxisAlignment: CrossAxisAlignment.center,
-                                      children: [
-                                        Icon(
-                                          Icons.circle_outlined,
-                                          size: 72,
-                                        ),
+                                        CircleAvatar(
+                                            foregroundImage:
+                                            AssetImage('images/avatar.png'),
+                                            backgroundColor: Color(0xFF05FFB4),
+                                            radius: 40),
                                         SizedBox(
                                           height: 3,
                                         ),
@@ -762,25 +443,29 @@ class _AboutUs extends State<AboutUs> {
                     children: [
                       Expanded(
                         child: Padding(
-                          padding: const EdgeInsets.symmetric(horizontal: 20.0, vertical: 10),
+                          padding: const EdgeInsets.symmetric(
+                              horizontal: 20.0, vertical: 10),
                           child: Container(
                             height: 183,
                             width: 142,
                             child: Card(
                                 shape: RoundedRectangleBorder(
                                   borderRadius: BorderRadius.circular(10),
-                                  side:
-                                  BorderSide(color: Colors.white70, width: 1),
+                                  side: BorderSide(
+                                      color: Colors.white70, width: 1),
                                 ),
                                 color: Colors.transparent,
                                 child: Padding(
                                   padding: const EdgeInsets.all(8.0),
                                   child: Column(
-                                    crossAxisAlignment: CrossAxisAlignment.center,
+                                    crossAxisAlignment:
+                                    CrossAxisAlignment.center,
                                     children: [
-                                      Icon(
-                                        Icons.circle_outlined,
-                                        size: 72,
+                                      CircleAvatar(
+                                        foregroundImage:
+                                        AssetImage('images/avatar.png'),
+                                        backgroundColor: Color(0xFF05FFB4),
+                                        radius: 40,
                                       ),
                                       SizedBox(
                                         height: 3,
@@ -804,14 +489,16 @@ class _AboutUs extends State<AboutUs> {
                       ),
                       Expanded(
                           child: Padding(
-                            padding: const EdgeInsets.symmetric(horizontal: 20.0, vertical: 10),
+                            padding: const EdgeInsets.symmetric(
+                                horizontal: 20.0, vertical: 10),
                             child: Container(
                               height: 183,
                               width: 142,
                               child: Card(
                                   shape: RoundedRectangleBorder(
                                     borderRadius: BorderRadius.circular(10),
-                                    side: BorderSide(color: Colors.white70, width: 1),
+                                    side:
+                                    BorderSide(color: Colors.white70, width: 1),
                                   ),
                                   color: Colors.transparent,
                                   child: Padding(
@@ -819,10 +506,11 @@ class _AboutUs extends State<AboutUs> {
                                     child: Column(
                                       crossAxisAlignment: CrossAxisAlignment.center,
                                       children: [
-                                        Icon(
-                                          Icons.circle_outlined,
-                                          size: 72,
-                                        ),
+                                        CircleAvatar(
+                                            foregroundImage:
+                                            AssetImage('images/avatar.png'),
+                                            backgroundColor: Color(0xFF05FFB4),
+                                            radius: 40),
                                         SizedBox(
                                           height: 3,
                                         ),
@@ -848,25 +536,29 @@ class _AboutUs extends State<AboutUs> {
                     children: [
                       Expanded(
                         child: Padding(
-                          padding: const EdgeInsets.symmetric(horizontal: 20.0, vertical: 10),
+                          padding: const EdgeInsets.symmetric(
+                              horizontal: 20.0, vertical: 10),
                           child: Container(
                             height: 183,
                             width: 142,
                             child: Card(
                                 shape: RoundedRectangleBorder(
                                   borderRadius: BorderRadius.circular(10),
-                                  side:
-                                  BorderSide(color: Colors.white70, width: 1),
+                                  side: BorderSide(
+                                      color: Colors.white70, width: 1),
                                 ),
                                 color: Colors.transparent,
                                 child: Padding(
                                   padding: const EdgeInsets.all(8.0),
                                   child: Column(
-                                    crossAxisAlignment: CrossAxisAlignment.center,
+                                    crossAxisAlignment:
+                                    CrossAxisAlignment.center,
                                     children: [
-                                      Icon(
-                                        Icons.circle_outlined,
-                                        size: 72,
+                                      CircleAvatar(
+                                        foregroundImage:
+                                        AssetImage('images/avatar.png'),
+                                        backgroundColor: Color(0xFF05FFB4),
+                                        radius: 40,
                                       ),
                                       SizedBox(
                                         height: 3,
@@ -890,14 +582,16 @@ class _AboutUs extends State<AboutUs> {
                       ),
                       Expanded(
                           child: Padding(
-                            padding: const EdgeInsets.symmetric(horizontal: 20.0, vertical: 10),
+                            padding: const EdgeInsets.symmetric(
+                                horizontal: 20.0, vertical: 10),
                             child: Container(
                               height: 183,
                               width: 142,
                               child: Card(
                                   shape: RoundedRectangleBorder(
                                     borderRadius: BorderRadius.circular(10),
-                                    side: BorderSide(color: Colors.white70, width: 1),
+                                    side:
+                                    BorderSide(color: Colors.white70, width: 1),
                                   ),
                                   color: Colors.transparent,
                                   child: Padding(
@@ -905,10 +599,11 @@ class _AboutUs extends State<AboutUs> {
                                     child: Column(
                                       crossAxisAlignment: CrossAxisAlignment.center,
                                       children: [
-                                        Icon(
-                                          Icons.circle_outlined,
-                                          size: 72,
-                                        ),
+                                        CircleAvatar(
+                                            foregroundImage:
+                                            AssetImage('images/avatar.png'),
+                                            backgroundColor: Color(0xFF05FFB4),
+                                            radius: 40),
                                         SizedBox(
                                           height: 3,
                                         ),
@@ -934,25 +629,29 @@ class _AboutUs extends State<AboutUs> {
                     children: [
                       Expanded(
                         child: Padding(
-                          padding: const EdgeInsets.symmetric(horizontal: 20.0, vertical: 10),
+                          padding: const EdgeInsets.symmetric(
+                              horizontal: 20.0, vertical: 10),
                           child: Container(
                             height: 183,
                             width: 142,
                             child: Card(
                                 shape: RoundedRectangleBorder(
                                   borderRadius: BorderRadius.circular(10),
-                                  side:
-                                  BorderSide(color: Colors.white70, width: 1),
+                                  side: BorderSide(
+                                      color: Colors.white70, width: 1),
                                 ),
                                 color: Colors.transparent,
                                 child: Padding(
                                   padding: const EdgeInsets.all(8.0),
                                   child: Column(
-                                    crossAxisAlignment: CrossAxisAlignment.center,
+                                    crossAxisAlignment:
+                                    CrossAxisAlignment.center,
                                     children: [
-                                      Icon(
-                                        Icons.circle_outlined,
-                                        size: 72,
+                                      CircleAvatar(
+                                        foregroundImage:
+                                        AssetImage('images/avatar.png'),
+                                        backgroundColor: Color(0xFF05FFB4),
+                                        radius: 40,
                                       ),
                                       SizedBox(
                                         height: 3,
@@ -976,14 +675,16 @@ class _AboutUs extends State<AboutUs> {
                       ),
                       Expanded(
                           child: Padding(
-                            padding: const EdgeInsets.symmetric(horizontal: 20.0, vertical: 10),
+                            padding: const EdgeInsets.symmetric(
+                                horizontal: 20.0, vertical: 10),
                             child: Container(
                               height: 183,
                               width: 142,
                               child: Card(
                                   shape: RoundedRectangleBorder(
                                     borderRadius: BorderRadius.circular(10),
-                                    side: BorderSide(color: Colors.white70, width: 1),
+                                    side:
+                                    BorderSide(color: Colors.white70, width: 1),
                                   ),
                                   color: Colors.transparent,
                                   child: Padding(
@@ -991,10 +692,11 @@ class _AboutUs extends State<AboutUs> {
                                     child: Column(
                                       crossAxisAlignment: CrossAxisAlignment.center,
                                       children: [
-                                        Icon(
-                                          Icons.circle_outlined,
-                                          size: 72,
-                                        ),
+                                        CircleAvatar(
+                                            foregroundImage:
+                                            AssetImage('images/avatar.png'),
+                                            backgroundColor: Color(0xFF05FFB4),
+                                            radius: 40),
                                         SizedBox(
                                           height: 3,
                                         ),
@@ -1020,25 +722,29 @@ class _AboutUs extends State<AboutUs> {
                     children: [
                       Expanded(
                         child: Padding(
-                          padding: const EdgeInsets.symmetric(horizontal: 20.0, vertical: 10),
+                          padding: const EdgeInsets.symmetric(
+                              horizontal: 20.0, vertical: 10),
                           child: Container(
                             height: 183,
                             width: 142,
                             child: Card(
                                 shape: RoundedRectangleBorder(
                                   borderRadius: BorderRadius.circular(10),
-                                  side:
-                                  BorderSide(color: Colors.white70, width: 1),
+                                  side: BorderSide(
+                                      color: Colors.white70, width: 1),
                                 ),
                                 color: Colors.transparent,
                                 child: Padding(
                                   padding: const EdgeInsets.all(8.0),
                                   child: Column(
-                                    crossAxisAlignment: CrossAxisAlignment.center,
+                                    crossAxisAlignment:
+                                    CrossAxisAlignment.center,
                                     children: [
-                                      Icon(
-                                        Icons.circle_outlined,
-                                        size: 72,
+                                      CircleAvatar(
+                                        foregroundImage:
+                                        AssetImage('images/avatar.png'),
+                                        backgroundColor: Color(0xFF05FFB4),
+                                        radius: 40,
                                       ),
                                       SizedBox(
                                         height: 3,
@@ -1062,14 +768,16 @@ class _AboutUs extends State<AboutUs> {
                       ),
                       Expanded(
                           child: Padding(
-                            padding: const EdgeInsets.symmetric(horizontal: 20.0, vertical: 10),
+                            padding: const EdgeInsets.symmetric(
+                                horizontal: 20.0, vertical: 10),
                             child: Container(
                               height: 183,
                               width: 142,
                               child: Card(
                                   shape: RoundedRectangleBorder(
                                     borderRadius: BorderRadius.circular(10),
-                                    side: BorderSide(color: Colors.white70, width: 1),
+                                    side:
+                                    BorderSide(color: Colors.white70, width: 1),
                                   ),
                                   color: Colors.transparent,
                                   child: Padding(
@@ -1077,10 +785,387 @@ class _AboutUs extends State<AboutUs> {
                                     child: Column(
                                       crossAxisAlignment: CrossAxisAlignment.center,
                                       children: [
-                                        Icon(
-                                          Icons.circle_outlined,
-                                          size: 72,
+                                        CircleAvatar(
+                                            foregroundImage:
+                                            AssetImage('images/avatar.png'),
+                                            backgroundColor: Color(0xFF05FFB4),
+                                            radius: 40),
+                                        SizedBox(
+                                          height: 3,
                                         ),
+                                        Text('XYZ', style: Style1),
+                                        Divider(
+                                          color: Colors.white,
+                                          thickness: 1,
+                                          indent: 41.5,
+                                          endIndent: 41.5,
+                                        ),
+                                        SizedBox(
+                                          height: 3,
+                                        ),
+                                        Text('DESCRIPTION', style: Style2),
+                                      ],
+                                    ),
+                                  )),
+                            ),
+                          ))
+                    ],
+                  ),
+                ],
+              ),
+              ListView(
+                children: [
+                  Row(
+                    children: [
+                      Expanded(
+                        child: Padding(
+                          padding: const EdgeInsets.symmetric(
+                              horizontal: 20.0, vertical: 10),
+                          child: Container(
+                            height: 183,
+                            width: 142,
+                            child: Card(
+                                shape: RoundedRectangleBorder(
+                                  borderRadius: BorderRadius.circular(10),
+                                  side: BorderSide(
+                                      color: Colors.white70, width: 1),
+                                ),
+                                color: Colors.transparent,
+                                child: Padding(
+                                  padding: const EdgeInsets.all(8.0),
+                                  child: Column(
+                                    crossAxisAlignment:
+                                    CrossAxisAlignment.center,
+                                    children: [
+                                      CircleAvatar(
+                                        foregroundImage:
+                                        AssetImage('images/avatar.png'),
+                                        backgroundColor: Color(0xFF05FFB4),
+                                        radius: 40,
+                                      ),
+                                      SizedBox(
+                                        height: 3,
+                                      ),
+                                      Text('XYZ', style: Style1),
+                                      Divider(
+                                        color: Colors.white,
+                                        thickness: 1,
+                                        indent: 41.5,
+                                        endIndent: 41.5,
+                                      ),
+                                      SizedBox(
+                                        height: 3,
+                                      ),
+                                      Text('DESCRIPTION', style: Style2),
+                                    ],
+                                  ),
+                                )),
+                          ),
+                        ),
+                      ),
+                      Expanded(
+                          child: Padding(
+                            padding: const EdgeInsets.symmetric(
+                                horizontal: 20.0, vertical: 10),
+                            child: Container(
+                              height: 183,
+                              width: 142,
+                              child: Card(
+                                  shape: RoundedRectangleBorder(
+                                    borderRadius: BorderRadius.circular(10),
+                                    side:
+                                    BorderSide(color: Colors.white70, width: 1),
+                                  ),
+                                  color: Colors.transparent,
+                                  child: Padding(
+                                    padding: const EdgeInsets.all(8.0),
+                                    child: Column(
+                                      crossAxisAlignment: CrossAxisAlignment.center,
+                                      children: [
+                                        CircleAvatar(
+                                            foregroundImage:
+                                            AssetImage('images/avatar.png'),
+                                            backgroundColor: Color(0xFF05FFB4),
+                                            radius: 40),
+                                        SizedBox(
+                                          height: 3,
+                                        ),
+                                        Text('XYZ', style: Style1),
+                                        Divider(
+                                          color: Colors.white,
+                                          thickness: 1,
+                                          indent: 41.5,
+                                          endIndent: 41.5,
+                                        ),
+                                        SizedBox(
+                                          height: 3,
+                                        ),
+                                        Text('DESCRIPTION', style: Style2),
+                                      ],
+                                    ),
+                                  )),
+                            ),
+                          ))
+                    ],
+                  ),
+                  Row(
+                    children: [
+                      Expanded(
+                        child: Padding(
+                          padding: const EdgeInsets.symmetric(
+                              horizontal: 20.0, vertical: 10),
+                          child: Container(
+                            height: 183,
+                            width: 142,
+                            child: Card(
+                                shape: RoundedRectangleBorder(
+                                  borderRadius: BorderRadius.circular(10),
+                                  side: BorderSide(
+                                      color: Colors.white70, width: 1),
+                                ),
+                                color: Colors.transparent,
+                                child: Padding(
+                                  padding: const EdgeInsets.all(8.0),
+                                  child: Column(
+                                    crossAxisAlignment:
+                                    CrossAxisAlignment.center,
+                                    children: [
+                                      CircleAvatar(
+                                        foregroundImage:
+                                        AssetImage('images/avatar.png'),
+                                        backgroundColor: Color(0xFF05FFB4),
+                                        radius: 40,
+                                      ),
+                                      SizedBox(
+                                        height: 3,
+                                      ),
+                                      Text('XYZ', style: Style1),
+                                      Divider(
+                                        color: Colors.white,
+                                        thickness: 1,
+                                        indent: 41.5,
+                                        endIndent: 41.5,
+                                      ),
+                                      SizedBox(
+                                        height: 3,
+                                      ),
+                                      Text('DESCRIPTION', style: Style2),
+                                    ],
+                                  ),
+                                )),
+                          ),
+                        ),
+                      ),
+                      Expanded(
+                          child: Padding(
+                            padding: const EdgeInsets.symmetric(
+                                horizontal: 20.0, vertical: 10),
+                            child: Container(
+                              height: 183,
+                              width: 142,
+                              child: Card(
+                                  shape: RoundedRectangleBorder(
+                                    borderRadius: BorderRadius.circular(10),
+                                    side:
+                                    BorderSide(color: Colors.white70, width: 1),
+                                  ),
+                                  color: Colors.transparent,
+                                  child: Padding(
+                                    padding: const EdgeInsets.all(8.0),
+                                    child: Column(
+                                      crossAxisAlignment: CrossAxisAlignment.center,
+                                      children: [
+                                        CircleAvatar(
+                                            foregroundImage:
+                                            AssetImage('images/avatar.png'),
+                                            backgroundColor: Color(0xFF05FFB4),
+                                            radius: 40),
+                                        SizedBox(
+                                          height: 3,
+                                        ),
+                                        Text('XYZ', style: Style1),
+                                        Divider(
+                                          color: Colors.white,
+                                          thickness: 1,
+                                          indent: 41.5,
+                                          endIndent: 41.5,
+                                        ),
+                                        SizedBox(
+                                          height: 3,
+                                        ),
+                                        Text('DESCRIPTION', style: Style2),
+                                      ],
+                                    ),
+                                  )),
+                            ),
+                          ))
+                    ],
+                  ),
+                  Row(
+                    children: [
+                      Expanded(
+                        child: Padding(
+                          padding: const EdgeInsets.symmetric(
+                              horizontal: 20.0, vertical: 10),
+                          child: Container(
+                            height: 183,
+                            width: 142,
+                            child: Card(
+                                shape: RoundedRectangleBorder(
+                                  borderRadius: BorderRadius.circular(10),
+                                  side: BorderSide(
+                                      color: Colors.white70, width: 1),
+                                ),
+                                color: Colors.transparent,
+                                child: Padding(
+                                  padding: const EdgeInsets.all(8.0),
+                                  child: Column(
+                                    crossAxisAlignment:
+                                    CrossAxisAlignment.center,
+                                    children: [
+                                      CircleAvatar(
+                                        foregroundImage:
+                                        AssetImage('images/avatar.png'),
+                                        backgroundColor: Color(0xFF05FFB4),
+                                        radius: 40,
+                                      ),
+                                      SizedBox(
+                                        height: 3,
+                                      ),
+                                      Text('XYZ', style: Style1),
+                                      Divider(
+                                        color: Colors.white,
+                                        thickness: 1,
+                                        indent: 41.5,
+                                        endIndent: 41.5,
+                                      ),
+                                      SizedBox(
+                                        height: 3,
+                                      ),
+                                      Text('DESCRIPTION', style: Style2),
+                                    ],
+                                  ),
+                                )),
+                          ),
+                        ),
+                      ),
+                      Expanded(
+                          child: Padding(
+                            padding: const EdgeInsets.symmetric(
+                                horizontal: 20.0, vertical: 10),
+                            child: Container(
+                              height: 183,
+                              width: 142,
+                              child: Card(
+                                  shape: RoundedRectangleBorder(
+                                    borderRadius: BorderRadius.circular(10),
+                                    side:
+                                    BorderSide(color: Colors.white70, width: 1),
+                                  ),
+                                  color: Colors.transparent,
+                                  child: Padding(
+                                    padding: const EdgeInsets.all(8.0),
+                                    child: Column(
+                                      crossAxisAlignment: CrossAxisAlignment.center,
+                                      children: [
+                                        CircleAvatar(
+                                            foregroundImage:
+                                            AssetImage('images/avatar.png'),
+                                            backgroundColor: Color(0xFF05FFB4),
+                                            radius: 40),
+                                        SizedBox(
+                                          height: 3,
+                                        ),
+                                        Text('XYZ', style: Style1),
+                                        Divider(
+                                          color: Colors.white,
+                                          thickness: 1,
+                                          indent: 41.5,
+                                          endIndent: 41.5,
+                                        ),
+                                        SizedBox(
+                                          height: 3,
+                                        ),
+                                        Text('DESCRIPTION', style: Style2),
+                                      ],
+                                    ),
+                                  )),
+                            ),
+                          ))
+                    ],
+                  ),
+                  Row(
+                    children: [
+                      Expanded(
+                        child: Padding(
+                          padding: const EdgeInsets.symmetric(
+                              horizontal: 20.0, vertical: 10),
+                          child: Container(
+                            height: 183,
+                            width: 142,
+                            child: Card(
+                                shape: RoundedRectangleBorder(
+                                  borderRadius: BorderRadius.circular(10),
+                                  side: BorderSide(
+                                      color: Colors.white70, width: 1),
+                                ),
+                                color: Colors.transparent,
+                                child: Padding(
+                                  padding: const EdgeInsets.all(8.0),
+                                  child: Column(
+                                    crossAxisAlignment:
+                                    CrossAxisAlignment.center,
+                                    children: [
+                                      CircleAvatar(
+                                        foregroundImage:
+                                        AssetImage('images/avatar.png'),
+                                        backgroundColor: Color(0xFF05FFB4),
+                                        radius: 40,
+                                      ),
+                                      SizedBox(
+                                        height: 3,
+                                      ),
+                                      Text('XYZ', style: Style1),
+                                      Divider(
+                                        color: Colors.white,
+                                        thickness: 1,
+                                        indent: 41.5,
+                                        endIndent: 41.5,
+                                      ),
+                                      SizedBox(
+                                        height: 3,
+                                      ),
+                                      Text('DESCRIPTION', style: Style2),
+                                    ],
+                                  ),
+                                )),
+                          ),
+                        ),
+                      ),
+                      Expanded(
+                          child: Padding(
+                            padding: const EdgeInsets.symmetric(
+                                horizontal: 20.0, vertical: 10),
+                            child: Container(
+                              height: 183,
+                              width: 142,
+                              child: Card(
+                                  shape: RoundedRectangleBorder(
+                                    borderRadius: BorderRadius.circular(10),
+                                    side:
+                                    BorderSide(color: Colors.white70, width: 1),
+                                  ),
+                                  color: Colors.transparent,
+                                  child: Padding(
+                                    padding: const EdgeInsets.all(8.0),
+                                    child: Column(
+                                      crossAxisAlignment: CrossAxisAlignment.center,
+                                      children: [
+                                        CircleAvatar(
+                                            foregroundImage:
+                                            AssetImage('images/avatar.png'),
+                                            backgroundColor: Color(0xFF05FFB4),
+                                            radius: 40),
                                         SizedBox(
                                           height: 3,
                                         ),
